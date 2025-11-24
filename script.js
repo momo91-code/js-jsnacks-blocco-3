@@ -96,3 +96,32 @@ console.log(animals);
 console.log(mammifero);
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
+
+let persons =[
+    {nome:"Alessia",
+     cognome:"Rossi",
+     eta: 20,
+    },
+
+    {nome:"Martina",
+     cognome:"Bianchi",
+     eta: 17,
+    },
+
+    {nome:"Francesca",
+     cognome:"Verdi",
+     eta: 50,
+    },
+
+    {nome:"Eleonora",
+     cognome:"Gialli",
+     eta: 14,
+    },
+];
+
+let canDrive = persons.map(person => {
+    let guida = person.eta >= 18 ? "Può guidare" : "Non può giudare";
+    return `${person.nome}  ${person.cognome} ${guida}`;
+});
+
+console.log(canDrive);
