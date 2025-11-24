@@ -57,3 +57,12 @@ const altro = cars.filter (c => c.alimentazione !== "Benzina" && c.alimentazione
 console.log(benzina);
 console.log(diesel);
 console.log(altro);
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+let names =["Mario", "FRANCESCO", "luca"];
+
+let formattedNames = names.map(
+    n => n[0].toUpperCase() + n.slice(1).toLowerCase());
+console.log(names);
+console.log(formattedNames);
