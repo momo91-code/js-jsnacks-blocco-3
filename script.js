@@ -66,3 +66,33 @@ let formattedNames = names.map(
     n => n[0].toUpperCase() + n.slice(1).toLowerCase());
 console.log(names);
 console.log(formattedNames);
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+let animals =[
+    {nome:"cane",
+     famiglia:"canidi",
+     classe:"mammiferi"
+    },
+
+    {nome:"leone",
+     famiglia: "felidi",
+     classe:"mammiferi"
+    },
+
+    {nome:"gallina",
+     famiglia:"fasianidi",
+     classe:"uccelli"
+    },
+
+    {nome:"pinguino",
+     famiglia:"sfeniscidi",
+     classe:"uccelli"
+    },
+];
+
+let mammifero = animals.filter (a => a.classe === "mammiferi");
+console.log(animals);
+console.log(mammifero);
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
