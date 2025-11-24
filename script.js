@@ -100,22 +100,22 @@ console.log(mammifero);
 let persons =[
     {nome:"Alessia",
      cognome:"Rossi",
-     eta: 20,
+     eta: 20
     },
 
     {nome:"Martina",
      cognome:"Bianchi",
-     eta: 17,
+     eta: 17
     },
 
     {nome:"Francesca",
      cognome:"Verdi",
-     eta: 50,
+     eta: 50
     },
 
     {nome:"Eleonora",
      cognome:"Gialli",
-     eta: 14,
+     eta: 14
     },
 ];
 
